@@ -1,0 +1,17 @@
+<flex-config xmlns="http://www.adobe.com/2006/flex-config">
+  <compiler>
+    <debug>true</debug>
+    <source-path>
+      <path-element>html-template</path-element>
+      <path-element>src</path-element>
+    </source-path>
+    <library-path append="true">
+      <path-element>libs/preloader.swc</path-element>
+      <path-element>libs/AppgradeBannerRotator.swc</path-element>
+    </library-path>
+  </compiler>
+  <file-specs>
+    <path-element>src/Preloader.as</path-element>
+  </file-specs>
+  <output>C:/srv/footboll/preloader/html-template/footballerPreloader.swf</output>
+</flex-config>
